@@ -1,0 +1,57 @@
+@import 'src/fonts/stylesheet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+@layer base {
+    :root {
+        --background: 206.67 100% 3.53%;
+        --foreground: 210 40% 98%;
+        --card: 206 100% 5%;
+        --card-border: 206 100 8%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 0 0 100%;
+        --primary-foreground: 144.9 80.4% 10%;
+        --secondary: 206.15 100% 7.65%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 240 5.03% 64.9%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 67.49% 60.2%;
+        --destructive-hover: 0 67.49% 64.2%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --border-dark: 206 100% 8%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 224.3 76.3% 48%;
+
+        --green: 140 100% 60%;
+        --green-foreground: 141 63% 43%;
+        --gold: 50 100% 60%;
+        --gold-foreground: 51 69% 43%;
+        --warning: 24 95% 59%;
+        --error: 0 67.49% 60.2%;
+        --gray: 240 5% 65%;
+        --discord: 235 86% 65%;
+        --discord-foreground: 235 86% 60%;
+
+        --radius: 0.5rem;
+
+        --gradient-fake: 82 80% 62%;
+    }
+
+    .core {
+        --primary: 140 100% 60%;
+    }
+
+    .plus {
+        --primary: 50 100% 60%;
+    }
+}
